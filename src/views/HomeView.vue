@@ -72,10 +72,11 @@
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
             </p>
           </div>
-          <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-8">
+          <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
             <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-              <PhoneIcon class="h-7 w-5 flex-none text-indigo-400"
-                         aria-hidden="true"
+              <PhoneIcon
+                class="h-7 w-5 flex-none text-indigo-400"
+                aria-hidden="true"
               />
               <div class="text-base leading-7">
                 <h3 class="font-semibold text-white">
@@ -88,6 +89,32 @@
                     target="_blank"
                   >
                     +549 (2254) 59-3190
+                  </a>
+                  <br>
+                  <a class="text-white hover:text-gray-300"
+                     href="mailto:dperez2055@gmail.com"
+                  >
+                    dperez2055@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+              <LifebuoyIcon
+                class="h-7 w-5 flex-none text-indigo-400" 
+                aria-hidden="true"
+              />
+              <div class="text-base leading-7">
+                <h3 class="font-semibold text-white">
+                  Support
+                </h3>
+                <p class="mt-2 text-gray-300">
+                  <a
+                    class="text-white hover:text-green-500"
+                    href="https://api.whatsapp.com/send?phone=5492254593190&text=Hola%20quiero%20contratar%20los%20servicios%20de%20Electron"
+                    target="_blank"
+                  >
+                    +549 (2254) 61-6181
                   </a>
                   <br>
                   <a class="text-white hover:text-gray-300"
@@ -359,7 +386,7 @@
 <script setup lang="ts">
 import { defineComponent, h, ref } from 'vue'
 import { Switch, SwitchGroup, SwitchLabel } from '@headlessui/vue'
-import { BuildingOffice2Icon, ChevronDownIcon, PhoneIcon } from '@heroicons/vue/20/solid'
+import { BuildingOffice2Icon, ChevronDownIcon, PhoneIcon, LifebuoyIcon } from '@heroicons/vue/20/solid'
 import Modal from '../components/Modal.vue'
 
 
